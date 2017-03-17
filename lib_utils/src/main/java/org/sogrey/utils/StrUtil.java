@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
  * 字符串处理类.
  *
  * @author Sogrey
- * @date：2016-01-17 下午11:52:13
+ *  on 2016-01-17 下午11:52:13
  */
 public class StrUtil {
     

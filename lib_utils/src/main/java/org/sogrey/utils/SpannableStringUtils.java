@@ -6,10 +6,10 @@ import android.graphics.BlurMaskFilter;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.support.annotation.ColorInt;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+//import android.support.annotation.ColorInt;
+//import android.support.annotation.DrawableRes;
+//import android.support.annotation.NonNull;
+//import android.support.annotation.Nullable;
 import android.text.Layout.Alignment;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -35,7 +35,7 @@ import android.text.style.UnderlineSpan;
 import static android.graphics.BlurMaskFilter.Blur;
 
 /**
- * SpannableString相关工具类<br/>
+ * SpannableString相关工具类<br>
  * https://github.com/Blankj/AndroidUtilCode/blob/master/app/src/main/java/com/blankj/androidutilcode/activities/SpannableActivity.java
  * <ul>
  * <li>getBuilder        : 获取建造者</li>
@@ -81,7 +81,7 @@ public class SpannableStringUtils {
      * @param text 样式字符串文本
      * @return {@link Builder}
      */
-    public static Builder getBuilder(@NonNull CharSequence text) {
+    public static Builder getBuilder(/*@NonNull*/ CharSequence text) {
         return new Builder(text);
     }
 
@@ -91,11 +91,11 @@ public class SpannableStringUtils {
         private CharSequence text;
 
         private int flag;
-        @ColorInt
+        /*@ColorInt*/
         private int foregroundColor;
-        @ColorInt
+        /*@ColorInt*/
         private int backgroundColor;
-        @ColorInt
+        /*@ColorInt*/
         private int quoteColor;
 
         private boolean isLeadingMargin;
@@ -125,7 +125,7 @@ public class SpannableStringUtils {
         private boolean imageIsUri;
         private Uri uri;
         private boolean imageIsResourceId;
-        @DrawableRes
+        /*@DrawableRes*/
         private int resourceId;
 
         private ClickableSpan clickSpan;
@@ -138,7 +138,7 @@ public class SpannableStringUtils {
         private SpannableStringBuilder mBuilder;
 
 
-        private Builder(@NonNull CharSequence text) {
+        private Builder(/*@NonNull*/ CharSequence text) {
             this.text = text;
             flag = Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
             foregroundColor = defaultValue;
@@ -171,7 +171,7 @@ public class SpannableStringUtils {
          * @param color 前景色
          * @return {@link Builder}
          */
-        public Builder setForegroundColor(@ColorInt int color) {
+        public Builder setForegroundColor(/*@ColorInt*/ int color) {
             this.foregroundColor = color;
             return this;
         }
@@ -182,7 +182,7 @@ public class SpannableStringUtils {
          * @param color 背景色
          * @return {@link Builder}
          */
-        public Builder setBackgroundColor(@ColorInt int color) {
+        public Builder setBackgroundColor(/*@ColorInt*/ int color) {
             this.backgroundColor = color;
             return this;
         }
@@ -193,7 +193,7 @@ public class SpannableStringUtils {
          * @param color 引用线的颜色
          * @return {@link Builder}
          */
-        public Builder setQuoteColor(@ColorInt int color) {
+        public Builder setQuoteColor(/*@ColorInt*/ int color) {
             this.quoteColor = color;
             return this;
         }
@@ -329,7 +329,7 @@ public class SpannableStringUtils {
          *                   </ul>
          * @return {@link Builder}
          */
-        public Builder setFontFamily(@Nullable String fontFamily) {
+        public Builder setFontFamily(/*@Nullable*/ String fontFamily) {
             this.fontFamily = fontFamily;
             return this;
         }
@@ -345,7 +345,7 @@ public class SpannableStringUtils {
          *              </ul>
          * @return {@link Builder}
          */
-        public Builder setAlign(@Nullable Alignment align) {
+        public Builder setAlign(/*@Nullable*/ Alignment align) {
             this.align = align;
             return this;
         }
@@ -356,7 +356,7 @@ public class SpannableStringUtils {
          * @param bitmap 图片位图
          * @return {@link Builder}
          */
-        public Builder setBitmap(@NonNull Bitmap bitmap) {
+        public Builder setBitmap(/*@NonNull*/ Bitmap bitmap) {
             this.bitmap = bitmap;
             imageIsBitmap = true;
             return this;
@@ -368,7 +368,7 @@ public class SpannableStringUtils {
          * @param drawable 图片资源
          * @return {@link Builder}
          */
-        public Builder setDrawable(@NonNull Drawable drawable) {
+        public Builder setDrawable(/*@NonNull*/ Drawable drawable) {
             this.drawable = drawable;
             imageIsDrawable = true;
             return this;
@@ -380,7 +380,7 @@ public class SpannableStringUtils {
          * @param uri 图片uri
          * @return {@link Builder}
          */
-        public Builder setUri(@NonNull Uri uri) {
+        public Builder setUri(/*@NonNull*/ Uri uri) {
             this.uri = uri;
             imageIsUri = true;
             return this;
@@ -392,7 +392,7 @@ public class SpannableStringUtils {
          * @param resourceId 图片资源id
          * @return {@link Builder}
          */
-        public Builder setResourceId(@DrawableRes int resourceId) {
+        public Builder setResourceId(/*@DrawableRes*/ int resourceId) {
             this.resourceId = resourceId;
             imageIsResourceId = true;
             return this;
@@ -405,7 +405,7 @@ public class SpannableStringUtils {
          * @param clickSpan 点击事件
          * @return {@link Builder}
          */
-        public Builder setClickSpan(@NonNull ClickableSpan clickSpan) {
+        public Builder setClickSpan(/*@NonNull*/ ClickableSpan clickSpan) {
             this.clickSpan = clickSpan;
             return this;
         }
@@ -417,7 +417,7 @@ public class SpannableStringUtils {
          * @param url 超链接
          * @return {@link Builder}
          */
-        public Builder setUrl(@NonNull String url) {
+        public Builder setUrl(/*@NonNull*/ String url) {
             this.url = url;
             return this;
         }
@@ -449,7 +449,7 @@ public class SpannableStringUtils {
          * @param text 样式字符串文本
          * @return {@link Builder}
          */
-        public Builder append(Context context, @NonNull CharSequence text) {
+        public Builder append(Context context, /*@NonNull*/ CharSequence text) {
             setSpan(context);
             this.text = text;
             return this;

@@ -6,7 +6,7 @@ Android 开发中常用工具类
 [![Twitter](https://img.shields.io/badge/Gradle-3.3-brightgreen.svg)](https://gradle.org/releases)
 [![Platform](https://img.shields.io/badge/platform-Android-green.svg?style=flat)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
-[![Download](https://api.bintray.com/packages/sogrey/maven/utils/images/download.svg) ](https://bintray.com/sogrey/maven/utils/_latestVersion)
+[![Download](https://api.bintray.com/packages/sogrey/maven/Utils/images/download.svg) ](https://bintray.com/sogrey/maven/Utils/_latestVersion)
 
 
 ## How to use
@@ -24,7 +24,7 @@ Or maven:
       <type>pom</type>
     </dependency>
 
-Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/utils/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Futils%2F0.0.1%2Futils-0.0.1.aar)
+Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/Utils/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2FUtils%2F0.0.1%2FUtils-0.0.1.aar)
 
 > 其中：{lastVersion} 用上面 Download 徽章后面的版本号替换。
 

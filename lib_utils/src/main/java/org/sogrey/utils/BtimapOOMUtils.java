@@ -18,8 +18,7 @@ public class BtimapOOMUtils {
 	
 	/**
 	 * 根据文件路径创建缩略图（不生成新文件）
-	 * @author Sogrey
-	 * @date 2015年6月30日
+	 * @author Sogrey 2015年6月30日
 	 * @param filePath
 	 * @return
 	 */

@@ -76,7 +76,7 @@ public class ShortcutUtils {
      * 为当前应用添加桌面快捷方式
      *
      * @param cx
-     * @param appName 快捷方式名称
+     * @param iconRes 快捷图标资源
      */
     public static void addShortcut(Context cx, int iconRes) {
         Intent shortcut = new Intent(

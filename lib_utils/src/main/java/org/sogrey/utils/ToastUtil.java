@@ -120,7 +120,7 @@ public class ToastUtil {
      * @param text    要显示的提示文本
      *
      * @author Sogrey
-     * @date 2015年4月22日
+     *  on  2015年4月22日
      */
     public static void showToast(Context context,String text) {
         showToastCenter(context,text);
@@ -133,7 +133,7 @@ public class ToastUtil {
      * @param resId   要显示提示文本资源Id
      *
      * @author Sogrey
-     * @date 2015年4月22日
+     *  on  2015年4月22日
      */
     public static void showToast(Context context,int resId) {
         showToastCenter(context,resId);
@@ -156,7 +156,7 @@ public class ToastUtil {
      * @param gravity 要显示的位置
      *
      * @author Sogrey
-     * @date 2015年4月22日
+     *  on  2015年4月22日
      */
     public static void showToast(Context context,String text,int gravity) {
         showToastAnyWhere(context,text,null,gravity);
@@ -180,7 +180,7 @@ public class ToastUtil {
      * @param gravity 要显示的位置
      *
      * @author Sogrey
-     * @date 2015年4月22日
+     *  on  2015年4月22日
      */
     public static void showToast(Context context,int resId,int gravity) {
         String text=context.getResources().getString(resId);

@@ -1,10 +1,11 @@
 package org.sogrey.utils;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
+//import android.support.v4.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
@@ -69,7 +70,8 @@ public class UIUtils {
      * @return
      */
     public  Drawable getDrawable(int id) {
-        return ContextCompat.getDrawable(getContext(), id);
+        return getContext().getResources().getDrawable(id);
+//        return ContextCompat.getDrawable(getContext(), id);
     }
     /**
      * 获取资源文件颜色
@@ -78,7 +80,8 @@ public class UIUtils {
      * @return
      */
     public  int getColor(int id) {
-        return ContextCompat.getColor(getContext(), id);
+//        return ContextCompat.getColor(getContext(), id);
+        return getContext().getResources().getColor(id);
     }
     /**
      * 根据id获取颜色的状态选择器
@@ -86,8 +89,10 @@ public class UIUtils {
      * @param id
      * @return
      */
+    @TargetApi(23)
     public  ColorStateList getColorStateList(int id) {
-        return ContextCompat.getColorStateList(getContext(), id);
+//        return ContextCompat.getColorStateList(getContext(), id);
+        return getContext().getColorStateList(id);
     }
     /**
      * 获取尺寸
@@ -99,7 +104,7 @@ public class UIUtils {
         return getResources().getDimensionPixelSize(id); // 返回具体像素值
     }
     /**
-     * dp -> px
+     * dp -&gt; px
      *
      * @param dp
      * @return
@@ -109,7 +114,7 @@ public class UIUtils {
         return (int) (dp * density + 0.5f);
     }
     /**
-     * px -> dp
+     * px -&gt; dp
      *
      * @param px
      * @return

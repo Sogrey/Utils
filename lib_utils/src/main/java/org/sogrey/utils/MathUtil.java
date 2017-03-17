@@ -21,7 +21,7 @@ import java.math.BigDecimal;
  * 数学处理类.
  * 
  * @author Sogrey
- * @date：2016-01-17 下午11:52:13
+ *  on 2016-01-17 下午11:52:13
  */
 public class MathUtil {
 
@@ -273,7 +273,7 @@ public class MathUtil {
 	 * 描述：点在直线上. 点A（x，y）,B(x1,y1),C(x2,y2) 点A在直线BC上吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param point
 	 * @param a
 	 * @param b
@@ -319,7 +319,7 @@ public class MathUtil {
 	 * 描述：点在线段上. 点A（x，y）,B(x1,y1),C(x2,y2) 点A在线段BC上吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param point
 	 * @param a
 	 * @param b
@@ -370,7 +370,7 @@ public class MathUtil {
 	 * 描述：两条直线相交. 点A（x1，y1）,B(x2,y2),C(x3,y3),D(x4,y4) 直线AB与直线CD相交吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 * @param b
 	 * @param c
@@ -433,7 +433,7 @@ public class MathUtil {
 	 * 描述：线段与线段相交. 点A（x1，y1）,B(x2,y2),C(x3,y3),D(x4,y4) 线段AB与线段CD相交吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 * @param b
 	 * @param c
@@ -494,7 +494,7 @@ public class MathUtil {
 	 * 描述：线段直线相交. 点A（x1，y1）,B(x2,y2),C(x3,y3),D(x4,y4) 线段AB与直线CD相交吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 * @param b
 	 * @param c
@@ -543,7 +543,7 @@ public class MathUtil {
 	 * 点A（x，y）,B(x1,y1),C(x2,y2) 点A在以直线BC为对角线的矩形中吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 * @param b
 	 * @param c
@@ -593,7 +593,7 @@ public class MathUtil {
 	 * 以直线AB为对角线的矩形在以直线BC为对角线的矩形中吗?
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a1
 	 * @param b1
 	 * @param a2
@@ -655,7 +655,7 @@ public class MathUtil {
 	 * 矩形对角点A（x1，y1），B(x2，y2)
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param o
 	 *            圆心
 	 * @param r
@@ -696,7 +696,7 @@ public class MathUtil {
 	 * 描述：获取两点间的距离.
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 *            第一个点
 	 * @param b
@@ -733,7 +733,7 @@ public class MathUtil {
 	 * 判断一个点与是否吻合，偏移半径
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param a
 	 *            第一个点
 	 * @param b
@@ -754,7 +754,7 @@ public class MathUtil {
 	 * 获取角度（手机左上角(0,0)）
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月13日
+	 * on  2015年7月13日
 	 * @param ax
 	 *            A点x坐标
 	 * @param ay

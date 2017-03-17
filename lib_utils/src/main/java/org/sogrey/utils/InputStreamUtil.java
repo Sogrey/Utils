@@ -1,6 +1,6 @@
 /**
  * @author Sogrey
- * @date 2015年4月29日
+ *  on  2015年4月29日
  */
 package org.sogrey.utils;
 
@@ -40,7 +40,7 @@ import java.net.URL;
 
 /**
  * @author Sogrey
- * @date 2015年4月29日
+ *  on  2015年4月29日
  */
 public class InputStreamUtil {
 	/**
@@ -48,7 +48,7 @@ public class InputStreamUtil {
 	 * 
 	 * @author Sogrey
 	 * 
-	 * @date 2015年4月29日
+	 *  on  2015年4月29日
 	 */
 
 	public static String inputStream2String(InputStream is) {
@@ -59,7 +59,7 @@ public class InputStreamUtil {
 	 * InputStream to String
 	 * 
 	 * @author Sogrey
-	 * @date 2015-8-19 下午2:19:56
+	 *  on  2015-8-19 下午2:19:56
 	 * @param is
 	 *            InputStream
 	 * @param charsetName
@@ -101,7 +101,7 @@ public class InputStreamUtil {
 	 * 2.InputStream to String
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param inputStream
 	 * @return String
 	 */
@@ -138,7 +138,7 @@ public class InputStreamUtil {
 	 * 3.Bitmap to InputStream
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bm
 	 * @return
 	 */
@@ -153,7 +153,7 @@ public class InputStreamUtil {
 	 * 4.将byte[]转换成InputStream
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param b
 	 * @return
 	 */
@@ -166,7 +166,7 @@ public class InputStreamUtil {
 	 * 5.将InputStream转换成byte[]
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param is
 	 * @return
 	 */
@@ -189,7 +189,7 @@ public class InputStreamUtil {
 	 * 6.将Bitmap转换成InputStream
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bm
 	 * @return
 	 */
@@ -204,7 +204,7 @@ public class InputStreamUtil {
 	 * 7.将Bitmap转换成InputStream
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bm
 	 * @param quality
 	 * @return
@@ -220,7 +220,7 @@ public class InputStreamUtil {
 	 * 8.将InputStream转换成Bitmap
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param is
 	 * @return
 	 */
@@ -232,7 +232,7 @@ public class InputStreamUtil {
 	 * 9.Drawable转换成InputStream
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param d
 	 * @return
 	 */
@@ -245,7 +245,7 @@ public class InputStreamUtil {
 	 * 10.InputStream转换成Drawable
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param is
 	 * @return
 	 */
@@ -258,7 +258,7 @@ public class InputStreamUtil {
 	 * 11.Drawable转换成byte[]
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param d
 	 * @return
 	 */
@@ -271,7 +271,7 @@ public class InputStreamUtil {
 	 * 12.byte[]转换成Drawable
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param b
 	 * @return
 	 */
@@ -284,7 +284,7 @@ public class InputStreamUtil {
 	 * 13.Bitmap转换成byte[]
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bm
 	 * @return
 	 */
@@ -298,7 +298,7 @@ public class InputStreamUtil {
 	 * 14.byte[]转换成Bitmap
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param b
 	 * @return
 	 */
@@ -313,7 +313,7 @@ public class InputStreamUtil {
 	 * 15.Drawable转换成Bitmap
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param drawable
 	 * @return
 	 */
@@ -335,7 +335,7 @@ public class InputStreamUtil {
 	 * 16.Bitmap转换成Drawable
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bitmap
 	 * @return
 	 */
@@ -349,7 +349,7 @@ public class InputStreamUtil {
 	 * 17.将view转为bitmap
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param view
 	 * @return
 	 */
@@ -379,7 +379,7 @@ public class InputStreamUtil {
 	 * 18.将view转为bitmap
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param view
 	 * @return
 	 */
@@ -408,7 +408,7 @@ public class InputStreamUtil {
 	 * 19.图片缩放与压缩-按大小缩放
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param srcPath
 	 * @return
 	 */
@@ -443,7 +443,7 @@ public class InputStreamUtil {
 	 * 20.图片质量压缩
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param image
 	 * @return
 	 */
@@ -466,7 +466,7 @@ public class InputStreamUtil {
 	 * 21.图片按比例大小压缩
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param image
 	 * @return
 	 */
@@ -509,7 +509,7 @@ public class InputStreamUtil {
 	 * 22.图片转为文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bmp
 	 * @param filename
 	 * @return
@@ -532,7 +532,7 @@ public class InputStreamUtil {
 	 * 屏幕截屏方法 获取当前屏幕bitmap,转换成bytes[] 调用 UI分享方法
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param context
 	 * @param v
 	 * @return
@@ -552,7 +552,7 @@ public class InputStreamUtil {
 	 * 24.图片转为文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bmp
 	 * @param savePath
 	 * @return
@@ -591,7 +591,7 @@ public class InputStreamUtil {
 	 * 25.下载图片
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param params
 	 * @return
 	 */
@@ -631,7 +631,7 @@ public class InputStreamUtil {
 	 * 26.将字符串转换成Bitmap类型
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param string
 	 * @return
 	 */
@@ -654,7 +654,7 @@ public class InputStreamUtil {
 	 * 27.将Bitmap转换成字符串
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param bitmap
 	 * @return
 	 */
@@ -673,7 +673,7 @@ public class InputStreamUtil {
 	 * 28.byte[]转为文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param b
 	 * @param filePath
 	 * @return
@@ -721,7 +721,7 @@ public class InputStreamUtil {
 	 * 29.图片缩放
 	 * 
 	 * @author Sogrey
-	 * @date 2015年5月20日
+	 *  on  2015年5月20日
 	 * @param photo
 	 * @param newHeight
 	 * @param context

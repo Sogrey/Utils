@@ -12,7 +12,7 @@ import android.widget.EditText;
  * 打开或关闭软键盘
  * 
  * @author Sogrey
- * @date 2015年7月23日
+ *  on  2015年7月23日
  */
 public class KeyBoardUtils {
 	/**
@@ -68,7 +68,7 @@ public class KeyBoardUtils {
 	 * </pre>
 	 * 
 	 * @author Sogrey
-	 * @date 2015年6月19日
+	 *  on  2015年6月19日
 	 * @param context
 	 *            上下文对象
 	 * @param ev

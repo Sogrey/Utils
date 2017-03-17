@@ -63,7 +63,7 @@ public class MediaFile {
 	/**
 	 * 媒体文件类型-音频，视频，图片，未知
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 */
 	public enum MediaFileTypeList {
 		Audio, Video, Image, UnKnown
@@ -72,7 +72,7 @@ public class MediaFile {
 	/**
 	 * 静态内部类-媒体文件类型-文件类型，mime
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 */
 	public static class MediaFileType {
 
@@ -189,7 +189,7 @@ public class MediaFile {
 	/**
 	 * 根据视频文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -203,7 +203,7 @@ public class MediaFile {
 	/**
 	 * 根据视频文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -218,7 +218,7 @@ public class MediaFile {
 	/**
 	 * 根据音频文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -233,7 +233,7 @@ public class MediaFile {
 	/**
 	 * 根据音频文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -248,7 +248,7 @@ public class MediaFile {
 	/**
 	 * 根据文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -269,7 +269,7 @@ public class MediaFile {
 	/**
 	 * 根据文件路径判断文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param path
 	 * @return
 	 */
@@ -289,7 +289,7 @@ public class MediaFile {
 	/**
 	 * 根据mime类型查看文件类型
 	 * @author Sogrey
-	 * @date 2015年4月22日
+	 *  on  2015年4月22日
 	 * @param mimeType
 	 * @return
 	 */

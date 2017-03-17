@@ -9,7 +9,7 @@ import java.text.NumberFormat;
 /**
  * 数字格式化
  * @author Sogrey
- * @date 2015-11-26下午3:43:30
+ * on 2015-11-26下午3:43:30
  */
 public class NumberUtils {
 

@@ -52,7 +52,7 @@ import java.util.regex.Pattern;
  * 应用工具类.
  * 
  * @author Sogrey
- * @date：2016-11-10 下午11:52:13
+ *  on 2016-11-10 下午11:52:13
  */
 public class AppUtil {
 
@@ -196,8 +196,7 @@ public class AppUtil {
 	}
 
 	/**
-	 * Gps是否打开 需要<uses-permission
-	 * android:name="android.permission.ACCESS_FINE_LOCATION" />权限
+	 * Gps是否打开 需要&lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /&gt;权限
 	 * 
 	 * @param context
 	 *            the context
@@ -410,8 +409,7 @@ public class AppUtil {
 	/**
 	 * 获取版本号 vercode type:int
 	 * 
-	 * @author Sogrey
-	 * @date 2015年4月24日
+	 * @author Sogrey on 2015年4月24日
 	 * @param context
 	 * @return
 	 */
@@ -430,8 +428,7 @@ public class AppUtil {
 	/**
 	 * 获取版本号 vername type:String
 	 * 
-	 * @author Sogrey
-	 * @date 2015年4月24日
+	 * @author Sogrey on 2015年4月24日
 	 * @param context
 	 * @return
 	 */
@@ -497,8 +494,7 @@ public class AppUtil {
 	/**
 	 * 获取唯一设备号(UUID 加密)
 	 * 
-	 * @author Sogrey
-	 * @date 2015-11-12下午12:54:18
+	 * @author Sogrey 2015-11-12下午12:54:18
 	 * @return
 	 */
 	public static String getDeviceId(Context context) {
@@ -522,8 +518,7 @@ public class AppUtil {
 	/**
 	 * 获取唯一设备号(不 加密)
 	 * 
-	 * @author Sogrey
-	 * @date 2015-11-12下午12:56:58
+	 * @author Sogrey 2015-11-12下午12:56:58
 	 * @param context
 	 * @return
 	 */
@@ -547,8 +542,7 @@ public class AppUtil {
 	/**
 	 * 获取IP
 	 * 
-	 * @author Sogrey
-	 * @date 2015-11-13下午5:44:23
+	 * @author Sogrey 2015-11-13下午5:44:23
 	 * @return
 	 */
 	public static String getLocalIpAddress() {

@@ -8,8 +8,7 @@ import android.util.TypedValue;
 /**
  * 常用单位转换的辅助类
  * 
- * @author Sogrey
- * @date 2015年7月23日
+ * @author Sogrey on 2015年7月23日
  */
 public class DensityUtils {
 	private DensityUtils() {
@@ -18,8 +17,7 @@ public class DensityUtils {
 	}
 	/**
 	 * 像素密度（单位像素点数/160）
-	 * @author Sogrey
-	 * @date 2016-1-11上午9:52:43
+	 * @author Sogrey on 2016-1-11上午9:52:43
 	 * @param context
 	 * @return
 	 */
@@ -28,8 +26,7 @@ public class DensityUtils {
 	}
 	/**
 	 * 单位像素点数（160n）
-	 * @author Sogrey
-	 * @date 2016-1-11上午9:52:56
+	 * @author Sogrey on 2016-1-11上午9:52:56
 	 * @param context
 	 * @return
 	 */

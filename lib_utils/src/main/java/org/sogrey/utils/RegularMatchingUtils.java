@@ -258,7 +258,7 @@ public class RegularMatchingUtils {
     }
 
     /**
-     * 验证是否含有^%&',;=?$\"等字符："[^%&',;=?$\x22]+"
+     * 验证是否含有% &#38; ' , ; = ? \等字符
      *
      * @param s 要匹配的字符串
      *
@@ -270,7 +270,7 @@ public class RegularMatchingUtils {
     }
 
     /**
-     * 验证是否含有非法字符 < > & / ' | 等字符："[^<>&/|'\]+"
+     * 验证是否含有非法字符
      *
      * @param s 要匹配的字符串
      *
@@ -307,7 +307,7 @@ public class RegularMatchingUtils {
     }
 
     /**
-     * 验证InternetURL："^http://([\w-]+\.)+[\w-]+(/[\w-./?%&=]*)?$"
+     * 验证InternetURL http://xxx
      *
      * @param s 要匹配的字符串
      *
@@ -415,9 +415,9 @@ public class RegularMatchingUtils {
 
     /**
      * 电话号码正则表达式（支持手机号码，3-4位区号，7-8位直播号码，1－4位分机号）
-     * 匹配格式： <br/>
-     * 11位手机号码 <br/>
-     * 3-4位区号，7-8位直播号码，1－4位分机号 <br/>
+     * 匹配格式： <br>
+     * 11位手机号码 <br>
+     * 3-4位区号，7-8位直播号码，1－4位分机号 <br>
      * 如：12345678901、1234-12345678-1234
      *
      * @param s 要匹配的字符串
@@ -516,7 +516,7 @@ public class RegularMatchingUtils {
     }
 
     /**
-     * 匹配html标签的正则表达式：<(.*)>(.*)<\/(.*)>|<(.*)\/>
+     * 匹配html标签的正则表达式：&lt;(.*)&gt;(.*)&lt;\/(.*)&gt;|&lt;(.*)\/&gt;
      *
      * @param s 要匹配的字符串
      *

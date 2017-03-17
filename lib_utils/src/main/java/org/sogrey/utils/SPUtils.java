@@ -15,7 +15,7 @@ import java.util.Map;
  * SharedPreferences 工具类
  *
  * @author Sogrey
- * @date 2015年7月23日
+ *  on  2015年7月23日
  */
 public class SPUtils {
 

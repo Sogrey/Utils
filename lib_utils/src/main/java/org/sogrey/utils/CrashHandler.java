@@ -33,8 +33,7 @@ import java.util.Map;
 
 /**
  * Crash捕获
- * @author Sogrey
- * @date 2015年5月22日
+ * @author Sogrey on 2015年5月22日
  */
 public class CrashHandler implements UncaughtExceptionHandler {
 	

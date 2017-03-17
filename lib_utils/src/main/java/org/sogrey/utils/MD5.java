@@ -15,7 +15,6 @@
  */
 package org.sogrey.utils;
 
-import android.support.annotation.Nullable;
 
 import java.security.MessageDigest;
 
@@ -24,7 +23,7 @@ import java.security.MessageDigest;
  * MD5加密.
  *
  * @author Sogrey
- * @date：2016-01-17 下午11:52:13
+ *  on 2016-01-17 下午11:52:13
  */
 public class MD5 {
 
@@ -35,7 +34,6 @@ public class MD5 {
      *
      * @return String 加密的字符串
      */
-    @Nullable
     public final static String md5(String str) {
         char hexDigits[] = "0123456789abcdef".toCharArray();// 用来将字节转换成 16 进制表示的字符
         try {

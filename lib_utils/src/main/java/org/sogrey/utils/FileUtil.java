@@ -60,7 +60,7 @@ import java.util.regex.Pattern;
  * 文件操作类.
  * 
  * @author Sogrey
- * @date：2016-01-18 下午11:52:13
+ *  on 2016-01-18 下午11:52:13
  */
 @SuppressLint("DefaultLocale")
 public class FileUtil {
@@ -577,7 +577,7 @@ public class FileUtil {
 	 * 获取文件名带后缀名（实际原理是取“/”最后一段）
 	 * 
 	 * @author Sogrey
-	 * @date 2015年6月30日
+	 *  on 2015年6月30日
 	 * @param path
 	 *            文件路径（本地或网络路径）
 	 * @return
@@ -1205,7 +1205,7 @@ public class FileUtil {
 	 * 复制文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年6月30日
+	 *  on 2015年6月30日
 	 * @param sourcePath
 	 * @param toPath
 	 */
@@ -1251,7 +1251,7 @@ public class FileUtil {
 	 * 复制文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年6月30日
+	 *  on 2015年6月30日
 	 * @param sourceFile
 	 * @param targetFile
 	 */
@@ -1295,7 +1295,7 @@ public class FileUtil {
 	 * 通过路径生成Base64文件
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月23日
+	 *  on 2015年7月23日
 	 * @param path
 	 * @return
 	 */
@@ -1508,7 +1508,6 @@ public class FileUtil {
 	 *            是否删除根目录
 	 * @param filePath
 	 *            根目录
-	 * @return
 	 */
 	public static void deleteFolderFile(String filePath,boolean deleteThisPath) {
 		if (!TextUtils.isEmpty(filePath)) {
@@ -1539,7 +1538,7 @@ public class FileUtil {
 	 * 打开指定目录
 	 * 
 	 * @author Sogrey
-	 * @date 2015-11-27下午1:56:55
+	 *  on 2015-11-27下午1:56:55
 	 * @param context
 	 */
 	public static void openFolder(Context context,String path) {

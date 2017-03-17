@@ -28,8 +28,7 @@ import java.util.List;
 /**
  * 日期处理类.
  *
- * @author Sogrey
- * @date 2015年6月18日
+ * @author Sogrey on 2015年6月18日
  */
 @SuppressLint("SimpleDateFormat")
 public class DateUtil {
@@ -271,8 +270,6 @@ public class DateUtil {
      *         增加数量
      *
      * @return
-     *
-     * @throws ParseException
      */
     public static final String dateIncrease(
             String isoString,String fmt,
@@ -818,9 +815,6 @@ public class DateUtil {
      *         月份
      *
      * @return
-     *
-     * @user : WuZheng
-     * @date : 2012-7-18
      */
     public static Date getFirstDayInMonth(Integer year,Integer month) {
         Calendar cal=Calendar.getInstance();
@@ -1107,7 +1101,7 @@ public class DateUtil {
      * @param second
      *         the "second date"
      *
-     * @return 0: first = second <0: first < second >0: first > second
+     * @return 0: first = second ;&lt;0: first &lt; second ;&gt;0: first &gt; second
      */
     public static final long compare(Date first,Date second) {
         if (first==null&&second==null) {
@@ -1433,10 +1427,7 @@ public class DateUtil {
      *
      * @param n
      *
-     * @return List<String>
-     *
-     * @user : wangyadong
-     * @date : 2012-6-6
+     * @return
      */
     public static List<String> getFirstNMonths(Integer n) {
         List<String> monthList=new ArrayList<String>();
@@ -1460,10 +1451,7 @@ public class DateUtil {
      *         格式为yyyyMM
      * @param n
      *
-     * @return List<String>
-     *
-     * @user : Administrator
-     * @date : 2012-6-7
+     * @return
      */
     public static List<String> getSpecifiedFirstNMonths(String date,Integer n) {
         List<String> monthList=new ArrayList<String>();
@@ -1490,8 +1478,6 @@ public class DateUtil {
      *         日期1
      *
      * @throws Exception
-     * @user : jerry
-     * @date : 2012-6-15
      */
     public static int compareDate(String date1,String date2,String format)
     throws Exception {
@@ -1521,9 +1507,6 @@ public class DateUtil {
      *         Date对象
      *
      * @return 较大的Date对象
-     *
-     * @user : WuZheng
-     * @date : 2012-7-3
      */
     public static Date max(Date dt1,Date dt2) {
         return compare(dt1,dt2)>=0 ? dt1 : dt2;
@@ -1536,9 +1519,6 @@ public class DateUtil {
      *         日期
      *
      * @return
-     *
-     * @user : jerry
-     * @date : 2012-7-30
      */
     public static int getQuarter(Date date) {
         Calendar cal=Calendar.getInstance();
@@ -1644,9 +1624,6 @@ public class DateUtil {
      * @param month
      *
      * @return
-     *
-     * @user : jerry
-     * @date : 2013-7-5
      */
     public static List<Date> getDaysOfMonth(Integer year,Integer month) {
         List<Date> result=new ArrayList<Date>();
@@ -1675,9 +1652,6 @@ public class DateUtil {
      * @param date
      *
      * @return
-     *
-     * @user : wangyd
-     * @date : 2014-8-14
      */
     public static String format(String date) {
         if (date==null) {
@@ -1737,8 +1711,7 @@ public class DateUtil {
      *
      * @return
      *
-     * @author Sogrey
-     * @date 2015年6月18日
+     * @author Sogrey on 2015年6月18日
      */
     public static String getTimeDiffDesc(Date date) {
 
@@ -1872,8 +1845,7 @@ public class DateUtil {
      *
      * @return
      *
-     * @author Sogrey
-     * @date 2015年6月18日
+     * @author Sogrey on 2015年6月18日
      */
     public static String getTimeDisplay(Date date) {
 
@@ -2388,7 +2360,7 @@ public class DateUtil {
 
     /**
      * 描述：判断是否是闰年()
-     * <p/>
+     * <p>
      * (year能被4整除 并且 不能被100整除) 或者 year能被400整除,则该年为闰年.
      *
      * @param year

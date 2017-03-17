@@ -26,7 +26,7 @@ import java.util.List;
  * 跟网络相关的工具类
  * 
  * @author Sogrey
- * @date 2015年7月23日
+ * on 2015年7月23日
  */
 public class NetUtils {
 	/** 单例模式 对象 */
@@ -83,7 +83,7 @@ public class NetUtils {
 	 * 判断有无网络链接
 	 * 
 	 * @author Sogrey
-	 * @date 2015年7月23日
+	 *  on  2015年7月23日
 	 * @param mContext
 	 * @return
 	 */
@@ -146,7 +146,6 @@ public class NetUtils {
 	 * 
 	 * @param context
 	 * @return
-	 * @throws Exception
 	 */
 	public static boolean isMobileDataEnable(Context context) {
 		ConnectivityManager connectivityManager = (ConnectivityManager) context
@@ -181,7 +180,6 @@ public class NetUtils {
 	 * 
 	 * @param context
 	 * @return
-	 * @throws Exception
 	 */
 	public static boolean isWifiDataEnable(Context context) {
 		ConnectivityManager connectivityManager = (ConnectivityManager) context
@@ -211,9 +209,11 @@ public class NetUtils {
 
 	/**
 	 * 获得IP<br>
+	 * <ul>
 	 *  <li>android.permission.ACCESS_WIFI_STATE</li>
+	 *  </ul>
 	 * @author Sogrey
-	 * @date 2015-11-13下午6:06:37
+	 *  on  2015-11-13下午6:06:37
 	 * @param context
 	 * @return
 	 */
@@ -240,7 +240,7 @@ public class NetUtils {
 	 * 非wifi下IP地址
 	 * 
 	 * @author Sogrey
-	 * @date 2015-11-13下午6:05:30
+	 *  on  2015-11-13下午6:05:30
 	 * @return
 	 */
 	public static String getLocalIpAddress() {
@@ -266,7 +266,7 @@ public class NetUtils {
 	 * 格式化IP
 	 * 
 	 * @author Sogrey
-	 * @date 2015-11-13下午6:05:59
+	 *  on  2015-11-13下午6:05:59
 	 * @param i
 	 * @return
 	 */

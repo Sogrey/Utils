@@ -11,9 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 /**
- * Drawable 上下左右四个方向上添加图标，比如 >
- * @author Sogrey
- * @date 2015-10-27上午10:40:37
+ * Drawable 上下左右四个方向上添加图标，比如 &gt;
+ * @author Sogrey on 2015-10-27上午10:40:37
  */
 public class DrawUtils {
 	/**
@@ -28,7 +27,6 @@ public class DrawUtils {
 	 *            高
 	 * @param type
 	 *            0左1右2下3上
-	 * @return
 	 */
 	public static void setViewDrawable(Context ctx,View v,int resId,int w,
 									   int h,int type) {
