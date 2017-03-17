@@ -1,8 +1,6 @@
 # Utils
 Android 开发中常用工具类
 
-> 开发暂未开始
-
 
 [![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://img.shields.io/badge/Gradle-3.3-brightgreen.svg)](https://gradle.org/releases)
@@ -15,18 +13,18 @@ Android 开发中常用工具类
 
 Add dependency to your gradle file:
 
-    compile 'org.sogrey:utils:{lastVersion}'
+    compile 'org.sogrey:Utils:{lastVersion}'
 
 Or maven:
 
     <dependency>
       <groupId>org.sogrey</groupId>
-      <artifactId>utils</artifactId>
+      <artifactId>Utils</artifactId>
       <version>{lastVersion}</version>
       <type>pom</type>
     </dependency>
 
-Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/utils/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Futils%2F0.0.2%2Futils-0.0.1.aar)
+Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/utils/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Futils%2F0.0.1%2Futils-0.0.1.aar)
 
 > 其中：{lastVersion} 用上面 Download 徽章后面的版本号替换。
 
