@@ -8,6 +8,9 @@ Android 开发中常用工具类
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [![Download](https://api.bintray.com/packages/sogrey/maven/Utils/images/download.svg) ](https://bintray.com/sogrey/maven/Utils/_latestVersion)
 
+## JavaDoc
+
+click me -> [Doc](https://sogrey.github.io/JavaDocs/Utils)
 
 ## How to use
 
